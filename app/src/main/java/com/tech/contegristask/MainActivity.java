@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     audioManager.setMicrophoneMute(false);
                     btnMute.setText("Mute");
-                    Toast.makeText(MainActivity.this, "Microphone unmuted", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Microphone nmuted", Toast.LENGTH_SHORT).show();
 
                 }
             }
